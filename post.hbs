@@ -48,10 +48,10 @@ into the {body} tag of the default.hbs template --}}
             </section>
         </div>
 
-        {{#if feature_image}}
+        {{!-- {{#if feature_image}}
         <figure class="article-image">
             {{!-- This is a responsive image, it loads different sizes depending on device
-            https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
+            https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 \-\-}}
             <img
                 srcset="{{img_url feature_image size="s"}} 300w,
                         {{img_url feature_image size="m"}} 600w,
@@ -62,7 +62,7 @@ into the {body} tag of the default.hbs template --}}
                 alt="{{title}}"
             />
         </figure>
-        {{/if}}
+        {{/if}} --}}
     </header>
 
     <section class="gh-content gh-canvas">
@@ -78,7 +78,7 @@ into the {body} tag of the default.hbs template --}}
 </article>
 
 {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
-{{#unless @member}}
+{{!-- {{#unless @member}}
 <section class="footer-cta">
     <div class="inner">
         <h2>Sign up for more like this.</h2>
@@ -87,10 +87,10 @@ into the {body} tag of the default.hbs template --}}
             <span>Subscribe</span>
         </a>
         {{!-- ^ This looks like a form element, but it's just a link to Portal,
-        making the form validation and submission much simpler. --}}
+        making the form validation and submission much simpler. \-\-}}
     </div>
 </section>
-{{/unless}}
+{{/unless}} --}}
 
 
 {{!-- Read more links, just above the footer --}}
