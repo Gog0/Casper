@@ -93,5 +93,8 @@
         "extends": [
             "@tryghost:theme"
         ]
+    },
+    "dependencies": {
+        "glightbox": "^3.0.7"
     }
 }

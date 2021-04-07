@@ -2012,6 +2012,11 @@ ghost-ignition@4.5.4:
     prettyjson "1.2.1"
     uuid "8.3.2"
 
+glightbox@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/glightbox/-/glightbox-3.0.7.tgz#f0fdb6213c285a416cba07046d822eb0c6223a2c"
+  integrity sha512-TIaB7UQi+6Aa15jrnDRcliDx2Z3nPzO6u+DSwJV6E2scCR9KUs1zAc+m/PDp+BmPnmPN+rqxKxUwYURyjfO+gw==
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"

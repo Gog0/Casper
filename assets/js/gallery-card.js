@@ -17,7 +17,9 @@
             var height = image.attributes.height.value;
             var ratio = width / height;
             container.style.flex = ratio + ' 1 0%';
+            container.innerHTML = '<a href="' + image.src + '" class="glightbox">' + container.innerHTML + '</a>'
         });
+        const lightbox = GLightbox();
     };
 
     document.addEventListener('DOMContentLoaded', resizeImagesInGalleries);
